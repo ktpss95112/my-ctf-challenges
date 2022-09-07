@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cp catflag run
+chmod g+s run
+chmod a+x run
+
+rm docker-entry # so that next time docker won't invoked

